@@ -26,7 +26,7 @@ body {
 }
 
 .dino {
-  display: block;
+  display: none;
   margin: 0;
 }
 
