@@ -16,24 +16,20 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
 .dino-wrap {
-  margin: 1rem;
-  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.dino {
-  display: none;
-  margin: 0;
+img {
+  display: block;
+  width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
 
   .dino {
-    display: inline-block;
+    width: 100%;
   }
 
 }
@@ -41,15 +37,10 @@ body {
 @media only screen and (min-width: 38em) {
 
   .dino {
-    display: inline-block;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
-
-  .dino {
-    display: inline-block;
-  }
 
 }
