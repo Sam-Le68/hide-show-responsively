@@ -45,7 +45,7 @@ img {
 @media only screen and (min-width: 38em) {
 
   .dino {
-    width: 33.3333%
+    width: 33.3333%;
   }
 
   .dino:nth-child(1) {
@@ -57,7 +57,7 @@ img {
 @media only screen and (min-width: 60em) {
 
   .dino {
-    width: 25%
+    width: 25%;
   }
 
   .dino:nth-child(1) {
