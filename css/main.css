@@ -31,12 +31,14 @@ img {
 }
 
 @media only screen and (min-width: 25em) {
+
   .dino {
     width: 50%;
   }
 
   .dino:nth-child(2), .dino:nth-child(4) {
     display: block;
+  }
 
 }
 
@@ -53,12 +55,13 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
-    .dino {
-      width: 25%
-    }
 
-    .dino:nth-child(1) {
-      display: block;
-    }
+  .dino {
+    width: 25%
+  }
+
+  .dino:nth-child(1) {
+    display: block;
+  }
 
 }
